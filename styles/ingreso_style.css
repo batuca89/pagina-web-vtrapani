@@ -1,0 +1,39 @@
+@import url("header-styles.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.enlances-main{
+    background-color: aqua;
+    width: 25vw;
+    
+    
+}
+
+.enlances-main ul li{
+    padding: 5px;
+}
+
+.contenido-main
+{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+    background-color: chartreuse;
+    width: 25vw;
+
+}
+
+.container-main table tr th{
+    padding: 5px;
+}
